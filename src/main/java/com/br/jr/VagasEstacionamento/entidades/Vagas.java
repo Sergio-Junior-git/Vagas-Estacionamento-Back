@@ -12,7 +12,7 @@ public class Vagas {
     private String numero;
     private String tipo;
     private String valorporhora;
-    private String estatos;
+    private String status;
 
     public Long getId() {
         return id;
@@ -38,11 +38,11 @@ public class Vagas {
     public void setValorporhora(String valorporhora) {
         this.valorporhora = valorporhora;
     }
-    public String getEstatos() {
-        return estatos;
+    public String getStatus() {
+        return status;
     }
-    public void setEstatos(String estatos) {
-        this.estatos = estatos;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     
